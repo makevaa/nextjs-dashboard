@@ -161,7 +161,17 @@ async function seedRevenue(client) {
 }
 
 async function main() {
-  const client = await db.connect();
+  console.log("Trying to connect to db...")
+  //const client = await db.connect();
+  //console.log("Connected to db!")
+  let client;
+  try {
+    client = await db.connect();
+    console.log("Connected to db!")
+  } catch (error) {
+    console.error('Error connecting to db:', error);
+    throw error;
+  }
 
   await seedUsers(client);
   await seedCustomers(client);
