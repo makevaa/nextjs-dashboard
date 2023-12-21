@@ -1,5 +1,7 @@
-## Next.js App Router Course - Starter
+## Next.js App Router Course
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+Dashboard app learning project from [Next.js Learn tutorial](https://nextjs.org/learn). For more information, see the on Next.js Website.
+
+## Live demo
+App is deployed [on Vercel](https://nextjs-dashboard-delta-ten-14.vercel.app). Demo user for login: user@nextmail.com:123456
